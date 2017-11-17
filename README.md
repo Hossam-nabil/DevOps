@@ -60,7 +60,11 @@ Docker CLI
 
 Docker Stack
 
+# Docker Swarm
 
+	TCP port 2377 for cluster management communications
+	TCP and UDP port 7946 for communication among nodes
+	UDP port 4789 for overlay network traffic
 
 Swam:
 	Cluster
@@ -76,11 +80,11 @@ CLI:
 	- docker swarm promote/demote nodename
 	- docker node update --vailability drain/pause/active nodename
 
-Networking:
+# Networking:
 
 https://success.docker.com/article/Docker_Reference_Architecture-_Designing_Scalable,_Portable_Docker_Container_Networks
 
-Service Discovery:
+# Service Discovery:
 
 https://dzone.com/articles/fast-development-workflow-with-docker-and-kubernet
 http://blog.arungupta.me/docker-swarm-cluster-using-consul/
@@ -121,7 +125,7 @@ https://fluentbytes.com/using-docker-on-windows-in-vsts-build-and-release-manage
 
 https://blogs.msdn.microsoft.com/devops/2017/06/09/deploying-applications-to-azure-container-service/
 
-Swarm vs kubernetes
+# Swarm vs kubernetes
 
 https://platform9.com/blog/compare-kubernetes-vs-docker-swarm/
 
@@ -129,7 +133,7 @@ https://platform9.com/blog/kubernetes-docker-swarm-compared/
 
 https://www.upcloud.com/blog/docker-swarm-vs-kubernetes/
 
-Course:
+# Course:
 
 https://www.safaribooksonline.com/library/view/building-microservice-systems/9781771375917/video258305.html
 
