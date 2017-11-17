@@ -36,16 +36,31 @@ https://docs.microsoft.com/en-us/virtualization/windowscontainers/manage-contain
 
 https://www.safaribooksonline.com/library/view/ansible-2-for/9781786465719/video1_4.html
 
+# Service Discovery
+
+Slides:
+
+[Docker Service Registration and Discovery](https://www.slideshare.net/m_richardson/docker-service-registration-and-discovery?next_slideshow=1)
+
+[Docker cluster with swarm, consul, registrator and consul-template](https://www.slideshare.net/JulienMaitrehenry/swarm-49613398)
+
+# Terms
 
 Docker Machine
+
 Docker Engine
+
 Docker Swarm
+
 Docker Compose
+
 Docker Daemon
+
 Docker CLI
+
 Docker Stack
 
-https://www.slideshare.net/JulienMaitrehenry/swarm-49613398
+
 
 Swam:
 	Cluster
