@@ -187,4 +187,8 @@ Azure Stack
 
 https://werner-dijkerman.nl/2017/01/09/setting-up-a-secure-consul-cluster-with-docker/
 
+# New Concepts:
 
+gRPC - https://grpc.io/
+Gossip - https://www.serf.io/docs/internals/gossip.html
+Raft Consensus Algorithm - https://raft.github.io/
