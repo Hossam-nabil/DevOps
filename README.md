@@ -74,17 +74,29 @@ Docker Stack
 [Docker and Swarm Mode – Part 1](https://lostechies.com/gabrielschenker/2016/09/05/docker-and-swarm-mode-part-1/)
 
 Swam:
+
 	Cluster
+	
 	Node
+	
 	Manager/Worker
+	
 	Service
+	
 	SwamKit
+	
 	Routing Mesh
+	
 	Raft Consensus Algorithm
+	
 	Service Discovery
+	
 	Load Balancing
-CLI:
+	
+# CLI:
+
 	- docker swarm promote/demote nodename
+	
 	- docker node update --vailability drain/pause/active nodename
 
 # Networking:
@@ -104,7 +116,7 @@ https://blog.docker.com/2015/02/orchestrating-docker-with-machine-swarm-and-comp
 2.	Swarm
 3.	Compose
 
-Docker Host
+# Docker Host
 
 https://www.safaribooksonline.com/library/view/docker-compose-in/100000006A0437/000601.html
 
@@ -113,10 +125,11 @@ https://www.safaribooksonline.com/library/view/restful-web-services/978178829463
 
 https://www.safaribooksonline.com/library/view/event-driven-microservices/9781491944165/video239923.html
 
-
+```
 ${source:-obj/Docker/publish}
 
 /p:OutputPath=C:\mydir
+```
 
 https://docs.microsoft.com/en-us/vsts/build-release/concepts/definitions/build/variables?tabs=powershell
 
@@ -126,7 +139,7 @@ https://github.com/Microsoft/VSTS-Docker-Preview
 
 https://marketplace.visualstudio.com/items?itemName=ms-vscs-rm.docker
 
-Release
+# Release
 
 https://fluentbytes.com/using-docker-on-windows-in-vsts-build-and-release-management/
 
