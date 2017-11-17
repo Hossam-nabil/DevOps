@@ -62,6 +62,8 @@ Docker Stack
 
 # Docker Swarm
 
+[Comparing Swarm, Swarmkit and Swarm Mode](https://sreeninet.wordpress.com/2016/07/14/comparing-swarm-swarmkit-and-swarm-mode/)
+
 	TCP port 2377 for cluster management communications
 	TCP and UDP port 7946 for communication among nodes
 	UDP port 4789 for overlay network traffic
