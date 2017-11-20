@@ -75,7 +75,7 @@ https://www.safaribooksonline.com/library/view/ansible-2-for/9781786465719/video
 	TCP and UDP port 7946 for communication among nodes
 	UDP port 4789 for overlay network traffic
 
-### Networks:
+### [Networks](https://docs.docker.com/engine/swarm/networking/):
 
  - **Control and management plane traffic:** This includes swarm management messages, such as requests to join or leave the swarm. This   traffic is always encrypted.
  - **Application data plane traffic:** This includes container traffic and traffic to and from external clients.
