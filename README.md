@@ -77,8 +77,12 @@ https://www.safaribooksonline.com/library/view/ansible-2-for/9781786465719/video
 
 ### [Networks](https://docs.docker.com/engine/swarm/networking/):
 
+A Docker swarm generates two different kinds of traffic:
+
  - **Control and management plane traffic:** This includes swarm management messages, such as requests to join or leave the swarm. This   traffic is always encrypted.
  - **Application data plane traffic:** This includes container traffic and traffic to and from external clients.
+ 
+ The following three network concepts are important to swarm services:
  
  - **Overlay networks** manage communications among the Docker daemons participating in the swarm. You can create overlay networks, in the same way as user-defined networks for standalone containers.
  - **The ingress network** is a special overlay network that facilitates load balancing among a service’s nodes. 
