@@ -75,7 +75,18 @@ https://www.safaribooksonline.com/library/view/ansible-2-for/9781786465719/video
 	TCP and UDP port 7946 for communication among nodes
 	UDP port 4789 for overlay network traffic
 
+### Networks:
+
+ - **Control and management plane traffic:** This includes swarm management messages, such as requests to join or leave the swarm. This   traffic is always encrypted.
+ - **Application data plane traffic:** This includes container traffic and traffic to and from external clients.
+ 
+ - **Overlay networks** manage communications among the Docker daemons participating in the swarm. You can create overlay networks, in the same way as user-defined networks for standalone containers.
+ - **The ingress network** is a special overlay network that facilitates load balancing among a service’s nodes. 
+ - **The docker_gwbridge** is a bridge network that connects the overlay networks (including the ingress network) to an individual Docker daemon’s physical network.
+ 
 ### Tutorials:
+
+
 
 [Docker and Swarm Mode – Part 1](https://lostechies.com/gabrielschenker/2016/09/05/docker-and-swarm-mode-part-1/)
 	
