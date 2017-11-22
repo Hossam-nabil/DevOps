@@ -88,7 +88,7 @@ A Docker swarm generates two different kinds of traffic:
  - **The ingress network** is a special overlay network that facilitates load balancing among a service’s nodes. 
  - **The docker_gwbridge** is a bridge network that connects the overlay networks (including the ingress network) to an individual Docker daemon’s physical network.
  
-### Docker Local Registry
+### [Docker Registry](https://docs.docker.com/registry/):
 
 Create or modify `/etc/docker/daemon.json`
 
@@ -109,8 +109,6 @@ docker service create `
 ```
 
 ### Tutorials:
-
-
 
 [Docker and Swarm Mode – Part 1](https://lostechies.com/gabrielschenker/2016/09/05/docker-and-swarm-mode-part-1/)
 	
@@ -163,6 +161,15 @@ docker service create `
   --constraint=node.role==manager `
   --mount=type=bind,src=/var/run/docker.sock,dst=/var/run/docker.sock `
   dockersamples/visualizer
+
+
+docker service create `
+  --detach=false `
+  --name=registry `
+  --publish=2727:5000 `
+  --constraint=node.role==manager `
+  --mount=type=bind,src=/mnt/registry,dst=/var/lib/registry `
+  registry:2
 ```
 
 ### Create Docker Machine on ESXi
