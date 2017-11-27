@@ -251,3 +251,7 @@ gRPC - https://grpc.io/
 Gossip - https://www.serf.io/docs/internals/gossip.html
 
 Raft Consensus Algorithm - https://raft.github.io/
+
+# Ansible:
+
+https://sysadmincasts.com/episodes/43-19-minutes-with-ansible-part-1-4
