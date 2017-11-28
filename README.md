@@ -262,3 +262,7 @@ https://github.com/jamesdmorgan/vagrant-ansible-docker-swarm
 
 https://github.com/jweissig/episode-45/blob/master/Vagrantfile
 
+# Vagrant:
+
+https://github.com/mitchellh/boot2docker-vagrant-box
+
