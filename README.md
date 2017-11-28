@@ -254,4 +254,11 @@ Raft Consensus Algorithm - https://raft.github.io/
 
 # Ansible:
 
-https://sysadmincasts.com/episodes/43-19-minutes-with-ansible-part-1-4
+https://www.safaribooksonline.com/library/view/ansible-2-for/9781786465719/video1_4.html
+
+https://www.safaribooksonline.com/library/view/ansible-fundamentals-livelessons/9780134863870/anfu_00_01_03_00.html
+
+https://github.com/jamesdmorgan/vagrant-ansible-docker-swarm
+
+https://github.com/jweissig/episode-45/blob/master/Vagrantfile
+
