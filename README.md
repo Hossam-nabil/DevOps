@@ -266,6 +266,8 @@ https://github.com/jweissig/episode-45/blob/master/Vagrantfile
 
 https://github.com/mitchellh/boot2docker-vagrant-box
 
+https://github.com/geerlingguy/ansible-vagrant-examples
+
 # Blogs:
 
 https://blog.scottlowe.org/archives/
