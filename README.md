@@ -268,6 +268,8 @@ https://github.com/mitchellh/boot2docker-vagrant-box
 
 https://github.com/geerlingguy/ansible-vagrant-examples
 
+https://rjzaworski.com/2015/07/using-ansible-with-vagrant
+
 # Blogs:
 
 https://blog.scottlowe.org/archives/
