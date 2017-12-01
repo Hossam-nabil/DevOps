@@ -45,6 +45,13 @@ https://www.safaribooksonline.com/library/view/ansible-2-for/9781786465719/video
 
 [Docker cluster with swarm, consul, registrator and consul-template](https://www.slideshare.net/JulienMaitrehenry/swarm-49613398)
 
+# Docker:
+
+### Posts:
+
+[Docker in Production: A History of Failure](https://thehftguy.com/2016/11/01/docker-in-production-an-history-of-failure/)
+
+
 # Docker Terms:
 
 1. Docker Machine
