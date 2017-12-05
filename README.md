@@ -286,6 +286,7 @@ https://rjzaworski.com/2015/07/using-ansible-with-vagrant
 # Terraform
 
 [Deploy a VMware vSphere Virtual Machine with Terraform](https://blog.inkubate.io/deploy-a-vmware-vsphere-virtual-machine-with-terraform/)
+
 [A Simple Terraform on vSphere Build](http://blog.codybunch.com/2017/03/08/A-Simple-Terraform-on-vSphere-Build/)
 
 # Blogs:
