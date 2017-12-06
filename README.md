@@ -283,6 +283,8 @@ https://github.com/geerlingguy/ansible-vagrant-examples
 
 https://rjzaworski.com/2015/07/using-ansible-with-vagrant
 
+[Learning Ansible with Vagrant](https://sysadmincasts.com/episodes/43-19-minutes-with-ansible-part-1-4)
+
 # Terraform
 
 [Deploy a VMware vSphere Virtual Machine with Terraform](https://blog.inkubate.io/deploy-a-vmware-vsphere-virtual-machine-with-terraform/)
