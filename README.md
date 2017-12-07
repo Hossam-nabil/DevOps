@@ -261,6 +261,8 @@ Raft Consensus Algorithm - https://raft.github.io/
 
 # Ansible:
 
+[Setup Docker Swarm on AWS using Ansible & Terraform](https://hackernoon.com/setup-docker-swarm-on-aws-using-ansible-terraform-daa1eabbc27d)
+
 https://www.safaribooksonline.com/library/view/ansible-2-for/9781786465719/video1_4.html
 
 https://www.safaribooksonline.com/library/view/ansible-fundamentals-livelessons/9780134863870/anfu_00_01_03_00.html
