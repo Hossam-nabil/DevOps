@@ -5,28 +5,33 @@
 1. Vagrant
 2. Packer
 
-### Configuration management tools: https://www.intigua.com/blog/puppet-vs.-chef-vs.-ansible-vs.-saltstack
+### [Configuration management tools:](https://www.intigua.com/blog/puppet-vs.-chef-vs.-ansible-vs.-saltstack)
 
-1.	Puppet 
-2.	Salt 
-3.	Chef 
-4.	Ansible
+1. Puppet 
+2. Salt 
+3. Chef 
+4. Ansible
 
-### Orchestration: https://blog.gruntwork.io/why-we-use-terraform-and-not-chef-puppet-ansible-saltstack-or-cloudformation-7989dad2865c
+### [Infrastructure as Code:](https://blog.gruntwork.io/why-we-use-terraform-and-not-chef-puppet-ansible-saltstack-or-cloudformation-7989dad2865c)
 
-1. ColudFormation
+1. CloudFormation
 2. Terraform
 
 ### Container Orchestration Tools
 
 1. Nomad
-2. Hadoop
-3. Terraform
-4. Swarm
-5. Kubernetes
-6. Mesos + Mesosphere
-7. AWS ECS
-8. Azure Stack
+2. Swarm
+3. Kubernetes
+4. Mesos + Mesosphere
+5. AWS ECS
+
+
+
+### Others:
+
+1. Hadoop
+2. Azure Stack
+
 
 https://docs.docker.com/engine/swarm/stack-deploy/
 
