@@ -1,9 +1,9 @@
 ---
 - name: provision ssh keys
-  hosts: nodes
+  hosts: all
+  remote_user: vagrant
   become: yes
   gather_facts: no
-  remote_user: vagrant
   tasks:
   - name: install ssh key
     authorized_key: user=vagrant 
@@ -11,8 +11,8 @@
                     state=present
 
 - name: Configure Docker Swarm
-  become: yes 
+  hosts: all
   remote_user: vagrant
-  hosts: nodes
+  become: yes 
   roles:
    - swarm-cluster

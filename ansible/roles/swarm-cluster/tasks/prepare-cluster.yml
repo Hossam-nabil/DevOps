@@ -7,6 +7,28 @@
 
 - name: Init Swarm Mode on swarm-manager1
   shell: docker swarm init --advertise-addr {{ docker_swarm_addr }}
-  when: "docker_info.stdout.find('Swarm: active') == -1 and inventory_hostname == groups['nodes'][0]"
+  when: "docker_info.stdout.find('Swarm: active') == -1 and inventory_hostname == groups['managers'][0]"
 
-#- debug: msg={{ hostvars }}
+- name: Get worker token
+  shell: docker swarm join-token -q worker
+  register: worker_token
+  delegate_to: "swarm-manager1"
+  when: "'workers' in group_names"
+
+- debug: msg="{{ group_names }}" 
+
+- name: Declare the manager address as a fact
+  set_fact:
+         docker_manager_addr: "{{ docker_swarm_addr }}:{{ docker_swarm_port }}"
+  when: "inventory_hostname == groups['managers'][0]"
+
+- name: Distribute the docker_manager_addr
+  set_fact:
+      docker_manager_addr: "{{ hostvars[groups['managers'][0]]['docker_manager_addr'] }}"
+  when: "'workers' in group_names"
+
+- name: Join Swarm worker
+  shell: docker swarm join --advertise-addr {{ docker_swarm_addr }} --token {{ worker_token.stdout }} {{ docker_manager_addr }}
+  when: "docker_info.stdout.find('Swarm: active') == -1
+    and docker_info.stdout.find('Swarm: pending') == -1
+    and 'workers' in group_names"
