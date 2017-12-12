@@ -1,4 +1,7 @@
-[all]
-swarm-manager1
-swarm-worker1
-swarm-worker2
+all:
+  hosts:
+  children:
+    nodes:
+	swarm-manager1
+	swarm-worker1
+	swarm-worker2
