@@ -1,0 +1,7 @@
+---
+- name: Configure Docker Swarm
+  become: True
+  remote_user: vagrant
+  hosts: all
+  roles:
+   - swarm-cluster
