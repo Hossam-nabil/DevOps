@@ -15,3 +15,7 @@
 - [Neal Ford - Building Microservice Architectures](https://www.youtube.com/watch?v=pjN7CaGPFB4)
 - [Microservices and Rules Engines – a blast from the past - Udi Dahan](https://www.youtube.com/watch?v=Fuac__g928E)
 -
+
+### Projects:
+
+- [Workshop (with examples in NServiceBus)](https://github.com/Particular/Workshop)
